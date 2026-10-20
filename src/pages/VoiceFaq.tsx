@@ -52,7 +52,7 @@ const voiceFaqs = [
   {
     question: "Where is L&D Digital based?",
     answer:
-      "L&D Digital is based in Stratford, East London, at 7 Corsican Square, postcode E15 1NN. It is the digital division of Luminous and Deliver Limited and serves clients across the United Kingdom.",
+      "L&D Digital is based in Stratford, East London, at 7 Corsican Square, postcode E15 1NN. It is the digital division of Luminous and Deliver and serves clients across the United Kingdom.",
   },
   {
     question: "Who founded L&D Digital?",

@@ -48,8 +48,8 @@ const About = () => {
     <div className="min-h-screen bg-background">
       <SEO
         title="About L&D Digital | Founder-Led Web, SEO & AI Studio in Stratford"
-        description="L&D Digital is a Stratford-based web design, SEO and AI automation studio founded by Abdul M Taher, a Computer Science graduate specialising in cybersecurity. Part of Luminous & Deliver Ltd. Transparent pricing, 1–14 day delivery, UK-wide."
-        keywords="about L&D Digital, web development agency East London, AI automation company Stratford, cybersecurity web developer UK, Abdul M Taher founder, Luminous and Deliver Ltd"
+        description="L&D Digital is a Stratford-based web design, SEO and AI automation studio founded by Abdul M Taher, a Computer Science graduate specialising in cybersecurity. Part of Luminous & Deliver. Transparent pricing, 1–14 day delivery, UK-wide."
+        keywords="about L&D Digital, web development agency East London, AI automation company Stratford, cybersecurity web developer UK, Abdul M Taher founder, Luminous and Deliver"
         canonicalUrl="https://digital.luminousanddeliver.co.uk/about"
       />
       <ScrollProgressBar />
@@ -226,15 +226,7 @@ const About = () => {
                   <strong className="text-secondary">Trading name:</strong> L&amp;D Digital
                 </li>
                 <li>
-                  <strong className="text-secondary">Legal entity:</strong> Luminous &amp; Deliver Ltd
-                </li>
-                <li>
-                  <strong className="text-secondary">Companies House number:</strong>{" "}
-                  <span className="text-amber-600">[PLACEHOLDER, owner to add]</span>
-                </li>
-                <li>
-                  <strong className="text-secondary">Registered office:</strong>{" "}
-                  <span className="text-amber-600">[PLACEHOLDER, owner to add]</span>
+                  <strong className="text-secondary">Legal status:</strong> Sole trader, Abdul M Taher trading as Luminous &amp; Deliver
                 </li>
                 <li>
                   <strong className="text-secondary">Trading address:</strong> Stratford, East London, UK

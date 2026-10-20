@@ -42,7 +42,7 @@ export const AuthorBio = ({ variant = "full" }: AuthorBioProps) => {
           <p className="text-sm text-muted-foreground mb-4 leading-relaxed">
             Founder of L&amp;D Digital, a Stratford-based web design, SEO and AI automation studio.
             BSc Computer Science graduate specialising in cybersecurity, and a Level 3 qualified
-            Domestic Energy Assessor through the L&amp;D Assured division of Luminous &amp; Deliver Ltd.
+            Domestic Energy Assessor through the L&amp;D Assured division of Luminous &amp; Deliver.
           </p>
           <div className="flex flex-wrap gap-3 text-xs text-muted-foreground mb-4">
             <span className="inline-flex items-center gap-1">

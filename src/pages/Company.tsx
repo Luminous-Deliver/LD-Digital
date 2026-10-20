@@ -15,13 +15,12 @@ const CompanyPageSchema = () => {
       "@context": "https://schema.org",
       "@type": "Organization",
       "@id": "https://digital.luminousanddeliver.co.uk/company#organization",
-      name: "Luminous & Deliver Ltd",
+      name: "Luminous & Deliver",
       alternateName: ["L&D", "Luminous and Deliver", "Luminous & Deliver"],
       url: "https://luminousanddeliver.co.uk",
       logo: "https://digital.luminousanddeliver.co.uk/favicon-96x96.png",
       description:
-        "Luminous & Deliver Ltd is a UK holding company operating three divisions: L&D Digital (web design, SEO and AI automation), L&D Builds (custom gaming PCs), and L&D Assured (Level 3 Domestic Energy Assessments).",
-      foundingDate: "[PLACEHOLDER, owner to add Companies House incorporation date]",
+        "Luminous & Deliver is a UK sole-trader business, run by Abdul M Taher, with three divisions: L&D Digital (web design, SEO and AI automation), L&D Builds (custom gaming PCs), and L&D Assured (Level 3 Domestic Energy Assessments).",
       founder: {
         "@type": "Person",
         name: "Abdul M Taher",
@@ -37,11 +36,6 @@ const CompanyPageSchema = () => {
       },
       email: "contact@luminousanddeliver.co.uk",
       telephone: "+447356260648",
-      identifier: {
-        "@type": "PropertyValue",
-        propertyID: "Companies House",
-        value: "[PLACEHOLDER, owner to add company number]",
-      },
       subOrganization: [
         {
           "@type": "Organization",
@@ -84,10 +78,10 @@ const Company = () => {
   return (
     <div className="min-h-screen bg-background">
       <SEO
-        title="Luminous & Deliver Ltd | Parent Company of L&D Digital, Builds & Assured"
-        description="Luminous & Deliver Ltd is the UK parent company of L&D Digital (web, SEO, AI), L&D Builds (custom PCs) and L&D Assured (Level 3 DEA service). Founded by Abdul M Taher, based in Stratford, East London."
+        title="Luminous & Deliver | The Business Behind L&D Digital, Builds & Assured"
+        description="Luminous & Deliver is the UK business behind L&D Digital (web, SEO, AI), L&D Builds (custom PCs) and L&D Assured (Level 3 DEA service). Founded by Abdul M Taher, based in Stratford, East London."
         canonicalUrl="https://digital.luminousanddeliver.co.uk/company"
-        keywords="Luminous and Deliver Ltd, L&D Digital parent company, L&D Builds, L&D Assured, Abdul M Taher company, UK tech holding company"
+        keywords="Luminous and Deliver, L&D Digital, L&D Builds, L&D Assured, Abdul M Taher company, UK tech business"
       />
       <CompanyPageSchema />
       <Navigation />
@@ -101,11 +95,11 @@ const Company = () => {
             <div className="max-w-4xl mx-auto">
               {/* Header */}
               <p className="text-sm font-semibold uppercase tracking-wide text-primary mb-2">Company Profile</p>
-              <h1 className="text-3xl md:text-5xl font-bold text-secondary mb-4">Luminous &amp; Deliver Ltd</h1>
+              <h1 className="text-3xl md:text-5xl font-bold text-secondary mb-4">Luminous &amp; Deliver</h1>
               <p className="text-lg text-muted-foreground mb-10 leading-relaxed">
-                Luminous &amp; Deliver Ltd is a privately held UK company operating three specialist divisions
+                Luminous &amp; Deliver is a UK sole-trader business with three specialist divisions
                 across web technology, hardware, and property compliance. Founded and led by Abdul M Taher,
-                the group is headquartered in Stratford, East London.
+                the business is based in Stratford, East London.
               </p>
 
               {/* Facts table */}
@@ -114,22 +108,12 @@ const Company = () => {
                   <table className="w-full text-sm">
                     <tbody>
                       {[
-                        { label: "Legal name", value: "Luminous & Deliver Ltd" },
+                        { label: "Business name", value: "Luminous & Deliver" },
                         { label: "Trading names", value: "L&D Digital · L&D Builds · L&D Assured" },
-                        { label: "Company type", value: "Private limited company (UK)" },
-                        {
-                          label: "Companies House number",
-                          value: "[PLACEHOLDER, owner to add]",
-                          placeholder: true,
-                        },
-                        {
-                          label: "Incorporation date",
-                          value: "[PLACEHOLDER, owner to add]",
-                          placeholder: true,
-                        },
+                        { label: "Legal status", value: "Sole trader (UK), owned by Abdul M Taher" },
                         { label: "Founder", value: "Abdul M Taher" },
                         { label: "Headquarters", value: "Stratford, East London, United Kingdom" },
-                        { label: "Registered address", value: "7 Corsican Square, London E15 1NN" },
+                        { label: "Business address", value: "7 Corsican Square, London E15 1NN" },
                         { label: "Industries", value: "Web design · SEO · AI automation · Custom PCs · Energy assessment" },
                         { label: "Country served", value: "United Kingdom" },
                         { label: "Website", value: "luminousanddeliver.co.uk" },
@@ -141,9 +125,7 @@ const Company = () => {
                           <th className="text-left font-semibold text-secondary p-4 w-1/3 align-top">
                             {row.label}
                           </th>
-                          <td
-                            className={`p-4 ${row.placeholder ? "text-amber-600" : "text-muted-foreground"}`}
-                          >
+                          <td className="p-4 text-muted-foreground">
                             {row.value}
                           </td>
                         </tr>
@@ -214,7 +196,7 @@ const Company = () => {
                     <div className="flex-1">
                       <h3 className="text-xl font-bold text-secondary mb-2">Abdul M Taher</h3>
                       <p className="text-muted-foreground mb-4 leading-relaxed">
-                        Abdul M Taher is the founder and sole director of Luminous &amp; Deliver Ltd, and
+                        Abdul M Taher is the founder and owner of Luminous &amp; Deliver, and
                         the founder and lead developer of L&amp;D Digital. He is a BSc Computer Science graduate
                         specialising in cybersecurity, and a Level 3 qualified Domestic Energy Assessor, credentials that underpin both the web security posture of L&amp;D Digital builds and the
                         compliance work of L&amp;D Assured.
@@ -235,7 +217,7 @@ const Company = () => {
                 <p>
                   Luminous &amp; Deliver began as L&amp;D Builds in 2020, a custom gaming PC service run by
                   Abdul M Taher while studying Computer Science. After graduating, the operation was
-                  formalised as Luminous &amp; Deliver Ltd and expanded into web technology as L&amp;D Digital,
+                  renamed Luminous &amp; Deliver and expanded into web technology as L&amp;D Digital,
                   with a focus on East London small businesses who were being priced out of the
                   traditional agency market.
                 </p>

@@ -110,7 +110,6 @@ const Contact = () => {
       "@type": "LocalBusiness",
       "@id": "https://digital.luminousanddeliver.co.uk/contact#localbusiness",
       name: "L&D Digital",
-      legalName: "Luminous & Deliver Ltd",
       image: "https://digital.luminousanddeliver.co.uk/og-image.jpg",
       url: "https://digital.luminousanddeliver.co.uk",
       telephone: "+447356260648",
@@ -426,7 +425,7 @@ const Contact = () => {
 
           {/* NAP (Name · Address · Phone) block, structured for local SEO + AI extraction */}
           <div className="mt-6 inline-block text-left text-sm text-muted-foreground bg-muted/40 border border-border rounded-lg px-5 py-4">
-            <p className="font-semibold text-secondary mb-1">L&amp;D Digital, a division of Luminous &amp; Deliver Ltd</p>
+            <p className="font-semibold text-secondary mb-1">L&amp;D Digital, a division of Luminous &amp; Deliver</p>
             <p>7 Corsican Square, Stratford, London E15 1NN, United Kingdom</p>
             <p>
               Phone:{" "}

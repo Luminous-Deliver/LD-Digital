@@ -35,7 +35,7 @@ const PersonSchema = () => {
       image: "https://digital.luminousanddeliver.co.uk/og-image.jpg",
       worksFor: {
         "@type": "Organization",
-        name: "Luminous & Deliver Ltd",
+        name: "Luminous & Deliver",
         url: "https://luminousanddeliver.co.uk",
       },
       alumniOf: {
@@ -164,8 +164,8 @@ const AuthorAbdul = () => {
                   <CardContent className="pt-6 flex items-start gap-3">
                     <Briefcase className="h-5 w-5 text-primary mt-1 flex-shrink-0" />
                     <div>
-                      <p className="font-semibold text-secondary">Luminous &amp; Deliver Ltd</p>
-                      <p className="text-sm text-muted-foreground">Parent company (Digital · Builds · Assured)</p>
+                      <p className="font-semibold text-secondary">Luminous &amp; Deliver</p>
+                      <p className="text-sm text-muted-foreground">Sole trader (Digital · Builds · Assured)</p>
                     </div>
                   </CardContent>
                 </Card>
@@ -181,8 +181,8 @@ const AuthorAbdul = () => {
                   with 8–12 week timelines for what is genuinely a few days of work.
                 </p>
                 <p className="text-muted-foreground mb-4">
-                  L&amp;D Digital is the web, SEO and AI division of <strong>Luminous &amp; Deliver Ltd</strong>,
-                  the holding company I run. The group also operates L&amp;D Builds (custom PC building,
+                  L&amp;D Digital is the web, SEO and AI division of <strong>Luminous &amp; Deliver</strong>,
+                  the business I run as a sole trader. It also operates L&amp;D Builds (custom PC building,
                   trading since 2020) and L&amp;D Assured (Level 3 Domestic Energy Assessments for UK
                   landlords and homeowners).
                 </p>

@@ -44,7 +44,7 @@ export const homepageFaqs = [
   {
     question: "What is a Domestic Energy Assessment?",
     answer:
-      "A Domestic Energy Assessment (DEA) is a Level 3 qualified service that produces Energy Performance Certificates (EPCs) for UK homes. The L&D Assured division of Luminous & Deliver Ltd provides this service for landlords and homeowners requiring compliance certification.",
+      "A Domestic Energy Assessment (DEA) is a Level 3 qualified service that produces Energy Performance Certificates (EPCs) for UK homes. The L&D Assured division of Luminous & Deliver provides this service for landlords and homeowners requiring compliance certification.",
   },
   {
     question: "Is a freelance web designer cheaper than an agency?",

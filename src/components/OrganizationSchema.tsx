@@ -7,7 +7,6 @@ export const OrganizationSchema = () => {
       "@type": ["Organization", "LocalBusiness", "ProfessionalService"],
       "@id": "https://digital.luminousanddeliver.co.uk/#organization",
       name: "L&D Digital",
-      legalName: "Luminous & Deliver Ltd",
       alternateName: [
         "Luminous & Deliver Digital",
         "Luminous and Deliver Digital",
@@ -22,7 +21,7 @@ export const OrganizationSchema = () => {
       },
       image: "https://digital.luminousanddeliver.co.uk/og-image.jpg",
       description:
-        "L&D Digital is a Stratford, East London web design, SEO and AI automation studio, the digital division of Luminous & Deliver Ltd. We build fast, mobile-first websites, local SEO campaigns, and AI chatbots for small businesses across the UK from £200.",
+        "L&D Digital is a Stratford, East London web design, SEO and AI automation studio, the digital division of Luminous & Deliver. We build fast, mobile-first websites, local SEO campaigns, and AI chatbots for small businesses across the UK from £200.",
       email: "contact@luminousanddeliver.co.uk",
       telephone: "+447356260648",
       address: {
@@ -103,10 +102,9 @@ export const OrganizationSchema = () => {
         url: "https://digital.luminousanddeliver.co.uk/author/abdul-m-taher",
         sameAs: "https://www.linkedin.com/in/abdul-m-taher-815177247/",
       },
-      foundingDate: "[PLACEHOLDER, owner to add Companies House incorporation date]",
       parentOrganization: {
         "@type": "Organization",
-        name: "Luminous & Deliver Ltd",
+        name: "Luminous & Deliver",
         url: "https://luminousanddeliver.co.uk",
       },
       subOrganization: [
@@ -123,11 +121,6 @@ export const OrganizationSchema = () => {
             "Level 3 qualified Domestic Energy Assessment (DEA) and EPC service for UK landlords and homeowners.",
         },
       ],
-      identifier: {
-        "@type": "PropertyValue",
-        propertyID: "Companies House",
-        value: "[PLACEHOLDER, owner to add company number]",
-      },
       slogan: "Web, SEO & AI for East London businesses",
       knowsAbout: [
         "Web Design",
