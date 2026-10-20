@@ -9,7 +9,6 @@ import { PremiumLoading } from "@/components/PremiumLoading";
 import { PWAInstallPrompt } from "@/components/PWAInstallPrompt";
 import { performanceMonitor } from "@/utils/performance";
 import { registerPreload } from "@/components/PreloadLink";
-import { CookieConsent } from "@/components/CookieConsent";
 import { BreadcrumbSchema } from "@/components/BreadcrumbSchema";
 import { OrganizationSchema } from "@/components/OrganizationSchema";
 import { WebSiteSchema } from "@/components/WebSiteSchema";
@@ -167,7 +166,6 @@ const App = () => (
           <WebSiteSchema />
           <ProfessionalServiceSchema />
           <ServiceAreaSchema />
-          <CookieConsent />
           <Suspense fallback={<PremiumLoading />}>
             <Routes>
               <Route path="/" element={<Index />} />

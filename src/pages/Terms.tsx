@@ -20,7 +20,7 @@ const Terms = () => {
         <h1 className="text-3xl md:text-5xl font-bold text-secondary mb-8 mt-4">Terms of Service</h1>
         
         <div className="prose prose-lg max-w-none space-y-6 text-foreground">
-          <p className="text-muted-foreground">Last updated: {new Date().toLocaleDateString('en-GB')}</p>
+          <p className="text-muted-foreground">Last updated: 12/01/2026</p>
 
           <section>
             <h2 className="text-2xl font-bold text-secondary mt-8 mb-4">1. Agreement to Terms</h2>

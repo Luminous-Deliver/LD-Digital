@@ -20,7 +20,7 @@ const Privacy = () => {
         <h1 className="text-3xl md:text-5xl font-bold text-secondary mb-8 mt-4">Privacy Policy</h1>
         
         <div className="prose prose-lg max-w-none space-y-6 text-foreground">
-          <p className="text-muted-foreground">Last updated: {new Date().toLocaleDateString('en-GB')}</p>
+          <p className="text-muted-foreground">Last updated: 20/10/2026</p>
 
           <section>
             <h2 className="text-2xl font-bold text-secondary mt-8 mb-4">1. Introduction</h2>
@@ -47,7 +47,7 @@ const Privacy = () => {
               <li>IP address</li>
               <li>Browser type and version</li>
               <li>Device information</li>
-              <li>Pages visited and time spent on pages</li>
+              <li>Pages visited</li>
               <li>Referring website</li>
             </ul>
           </section>
@@ -60,7 +60,6 @@ const Privacy = () => {
               <li>Send you quotes, proposals, and project updates</li>
               <li>Improve our website and services</li>
               <li>Send marketing communications (with your consent)</li>
-              <li>Analyze website usage and trends</li>
               <li>Comply with legal obligations</li>
             </ul>
           </section>
@@ -68,18 +67,17 @@ const Privacy = () => {
           <section>
             <h2 className="text-2xl font-bold text-secondary mt-8 mb-4">4. Cookies</h2>
             <p>
-              We use cookies and similar tracking technologies to track activity on our website. You can control cookie preferences through our cookie consent banner or your browser settings.
+              We don't use analytics, advertising or tracking cookies, and this website doesn't set cookies of its own.
             </p>
-            <p className="mt-4"><strong>Essential Cookies:</strong> Necessary for the website to function properly.</p>
-            <p><strong>Analytics Cookies:</strong> Help us understand how visitors use our website (Google Analytics).</p>
-            <p><strong>Marketing Cookies:</strong> Used to deliver personalized advertisements (if applicable).</p>
+            <p className="mt-4">If you close the announcement bar or open the quick-contact button, your browser remembers that in its local storage so we don't show the same prompt again. The site also keeps a copy of its own files in your browser so pages load faster next time. You can clear both in your browser settings.</p>
+            <p className="mt-4">Our fonts are stored on our own website, so loading a page doesn't send your details to a font provider. Our forms are run by Tally and protected from spam by Cloudflare Turnstile.</p>
           </section>
 
           <section>
             <h2 className="text-2xl font-bold text-secondary mt-8 mb-4">5. Data Sharing and Disclosure</h2>
             <p>We do not sell your personal data. We may share your information with:</p>
             <ul className="list-disc pl-6 space-y-2">
-              <li><strong>Service Providers:</strong> Third-party services that help us operate our website (e.g., hosting, analytics)</li>
+              <li><strong>Service Providers:</strong> Third-party services that help us operate our website (e.g., hosting and form handling)</li>
               <li><strong>Legal Requirements:</strong> When required by law or to protect our rights</li>
               <li><strong>Business Transfers:</strong> In connection with a merger, sale, or acquisition</li>
             </ul>
@@ -105,6 +103,8 @@ const Privacy = () => {
               <li>Withdraw consent</li>
             </ul>
             <p className="mt-4">To exercise these rights, contact us at: <a href="mailto:contact@luminousanddeliver.co.uk" className="text-primary hover:underline">contact@luminousanddeliver.co.uk</a></p>
+            <h3 className="text-xl font-semibold mt-6 mb-2">Complaints about your data</h3>
+            <p>If you're unhappy with how we've handled your personal data, email <a href="mailto:contact@luminousanddeliver.co.uk" className="text-primary hover:underline">contact@luminousanddeliver.co.uk</a> with "Data complaint" in the subject line. We'll acknowledge your complaint within 30 days, look into it, keep you updated and tell you the outcome. If you're still unhappy after that, you can complain to the <a href="https://ico.org.uk/make-a-complaint/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Information Commissioner's Office</a>.</p>
           </section>
 
           <section>
@@ -119,7 +119,7 @@ const Privacy = () => {
             <p>Our website may contain links to third-party websites. We are not responsible for the privacy practices of these external sites.</p>
             <p className="mt-4">Third-party services we use:</p>
             <ul className="list-disc pl-6 space-y-2">
-              <li>Google Analytics (analytics)</li>
+              <li>Cloudflare (website hosting, security and spam protection)</li>
               <li>Tally Forms (form submissions)</li>
               <li>WhatsApp (customer communication)</li>
             </ul>

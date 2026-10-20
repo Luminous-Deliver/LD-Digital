@@ -2,6 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
+/* ===== FONTS (self-hosted latin subsets, variable weight) ===== */
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url("/fonts/plus-jakarta-sans-latin-var.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 500 700;
+  font-display: swap;
+  src: url("/fonts/space-grotesk-latin-var.woff2") format("woff2");
+}
+
 /* ===== THEME TOKENS ===== */
 @layer base {
   :root {
